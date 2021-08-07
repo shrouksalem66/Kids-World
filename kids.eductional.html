@@ -1,0 +1,144 @@
+<html>
+    <head>
+        <title>eductional</title>
+        <link rel="stylesheet"   href="header&footer.css"/>
+        <script src="https://kit.fontawesome.com/d8df2b8f2b.js"></script>
+        <script type="text/javascript">
+            function  home(){
+            window.open("file:///C:/Users/pc/Desktop/kids%20world/kids.home.html","_self");
+           }
+            function Video(){
+             window.open("file:///C:/Users/pc/Desktop/kids%20world/kids.video.html","_self");
+            }
+            function games(){
+             window.open("file:///C:/Users/pc/Desktop/kids%20world/kids.game.html","_self");
+            }
+            function signin(){
+             window.open("file:///C:/Users/pc/Desktop/kids%20world/kids.sign%20in.html","_self");
+            }
+            function reading(){
+             window.open("file:///C:/Users/pc/Desktop/kids%20world/kids.reading.html","_self");
+            }
+            </script>
+            <style>
+                iframe{  
+                     width:600px;
+                     height:400px;
+                      margin: 40px 380px 40px 40px;
+                      border:5px solid brown;
+                    }
+
+            h2{
+                padding: 100px 0px 0px ;
+                height:10;
+                font-size: 40;
+            }
+                </style>
+        
+    </head>
+    <body background="kids.jpeg" >
+        <header>
+      <h1>kids world </h1>
+        <nav>
+            <u1>
+                    <li><a onclick="home()"   > Home </a></li>
+                    <li><a onclick="Video()"  >Video </a></li>
+                    <li><a  onclick="reading()"> reading </a></li>
+                    <li><a  onclick="games()"> games </a></li>   
+                    <li><a onclick="signin()"> Sign in  </a></li>
+            </u1>
+        </nav>
+        <script>
+                function Girls(){
+                window.open("file:///C:/Users/pc/Desktop/kids%20world/kids.girls%20games.html","_self");
+            }
+            function Boys(){
+                window.open("file:///C:/Users/pc/Desktop/kids%20world/kids.boysgames.html","_self");
+        
+            }
+            function A(){ 
+            window.open("file:///C:/Users/pc/Desktop/kids%20world/kids.eductional.html","_self")
+          }
+          function B(){ 
+            window.open("file:///C:/Users/pc/Desktop/kids%20world/kids.cartton.html","_self")
+          }
+          function C (){ 
+            window.open("file:///C:/Users/pc/Desktop/kids%20world/kids.music.html","_self")
+          }
+function myfun(){
+                        var a=document.getElementById("user_name").value;
+                        if(a=="games" || a=="game" ||a=="Game" || a=="GameS" )
+                        {
+                                games();
+                        }
+                        else if (a=="reading" || a=="Reading")
+                        {
+                                reading();
+                        }
+                        else if (a=="video" || a=="Videos" || a=="videos" || a=="Video")
+                        {
+                                Video();
+                        }
+                        else if (a=="Girls Game" || a=="girls game" || a=="girls games" || a=="Girls Games")
+                        {
+                                Girls();
+                        }
+                        else if (a=="Boys Game" || a=="boys game" || a=="boys games" || a=="Boys Games")
+                        {
+                                Boys();
+                        }
+                        else if (a=="eductional"||a=="Eductional")
+                        {
+ A();
+                        }
+                        else if (a=="cartton"||a=="Cartton")
+                        {
+                                B();
+                        }
+                        else if (a=="music"||a=="Msic")
+                        {
+                                C();
+                        }
+
+
+                        
+                }
+        </script>
+ <div class="search-box">
+                <input class="search-txt" type="text" id="user_name" value placeholder="type to search">
+                <a class="search-btn" onclick="myfun()">
+                        <i class="fas fa-search"></i>
+                </a>
+            </div>
+        </header>
+        <div id="A" align="right" >   
+            <h2 align="center" fount size="+9">Educational videos </h2> 
+            <iframe src="https://www.youtube.com/embed/1E2zrPLnMqo" controls="controls" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/HWdYMUVpdes"  allowfullscreen></iframe> 
+            <iframe src="https://www.youtube.com/embed/oVaWut0k4zU"  allowfullscreen></iframe> 
+            <iframe src="https://www.youtube.com/embed/YEGsRKDsd1k"  allowfullscreen></iframe> 
+            <iframe src="https://www.youtube.com/embed/edL3W38ODd4"  allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/7scc6hOXDMc"  allowfullscreen></iframe>
+          </div> 
+
+        <footer>
+            <h4> kids world<br></h4>
+            <h4>a site that contains everything about kids like games, music and cartons.</h4>
+            <div class="middle">
+                 <a class="facebook" href="#">
+                         <i class="fab fa-facebook"></i>
+                 </a>
+                 <a class="mail" href="https://accounts.google.com">
+                         <i class="far fa-envelope"></i>
+                 </a>
+                 <a class="youtube" href="https://www.youtube.com">
+                         <i class="fab fa-youtube"></i>
+                 </a>
+                 <a class="call" href="#">
+                         <i class="fas fa-phone-alt"></i>
+                 </a>
+                 
+
+             </div>        </footer>
+    </body>
+</html>

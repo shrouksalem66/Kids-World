@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(kids.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+header {
+    float: left;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    padding: 10px 90px;
+    box-sizing: border-box;
+    background: rgba(0,0,0);
+    background-color: black;
+    opacity: 0.7;
+    
+}
+h1{
+    padding: 0px 0px;
+    height: 30;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color:white;
+    
+}
+li:hover{
+    transform: scale(1.5);
+}
+nav u1{
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    
+    
+}
+nav u1 li a{
+    line-height: 50px;
+    color: #ffffff;
+    padding: 8px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 10px;
+   
+    
+}
+.search-box{
+    position: absolute;
+    top: 15 ;
+    left: 270;
+    background: brown;
+    border-radius: 40px ;
+    height: 25px;
+    padding: 7px ; 
+}
+.search-box:hover > .search-txt{
+    width: 240px ;
+    padding : 3px;
+}
+.search-btn{
+    color:white;
+    float: right;
+    width: 30px;
+    height: 25px;
+    border-radius: 50%;
+    background: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-txt{
+   
+    outline: none;
+    background: none;
+    border: none;
+    float: left;
+    background: white;
+    color:  brown;
+    width: 30px;
+    font-size: 0s;
+    width: 0px;
+
+}
+footer{
+    
+        margin-top:none;
+        background: rgba(0,0,0);
+        background-color: black;
+        opacity: 0.7;
+        padding: 30px 50px 70px ;
+        
+}
+h4{
+    text-align: left ;
+    font-style: oblique;
+    color: white;
+    font-size: 20;
+}
+.middle{
+    float: right;      
+}
+.facebook{
+    font-size: 40;
+    padding: 0px 30px 0px 30px ;
+    color: blue;
+}
+.mail{
+    font-size: 40;
+    padding: 0px 30px 0px 30px ;
+    color: cadetblue
+}
+.youtube{
+    font-size: 40;
+    padding: 0px 30px 0px 30px ;
+    color: red;
+}
+.call{
+    font-size: 40;
+    padding: 0px 30px 0px 30px ;
+    color: rgba(243, 243, 55, 0.822);
+}
